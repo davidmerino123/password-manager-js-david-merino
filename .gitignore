@@ -1,0 +1,18 @@
+# 1. Dependencias (La carpeta gigante que no se sube)
+node_modules/
+
+# 2. Seguridad (Tu archivo con la clave secreta)
+.env
+.env.local
+src/firebase.js
+
+# 3. Construcción (La carpeta que genera Vite al compilar, aun no la tienes pero aparecerá)
+dist/
+
+# 4. Archivos del sistema y logs (Basura del sistema operativo)
+.DS_Store
+*.log
+npm-debug.log*
+
+# 5. Configuración local del editor (Opcional, pero recomendado)
+.vscode/

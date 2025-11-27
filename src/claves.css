@@ -1,0 +1,114 @@
+body {
+    background-color: #1F2937;;
+    max-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: left;
+    color: white;
+    padding: 20px;
+} 
+.fila-clave{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.input-mostrar {
+  background: transparent;
+  border: none;
+  font-family: monospace; /* Fuente tipo código para leer mejor */
+  font-size: 1rem;
+  color: whitesmoke;
+  width: 100%; /* O el ancho que prefieras */
+  outline: none; /* Quita el borde azul al seleccionar */
+}
+.btn-ver {
+  background: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: opacity 0.2s;
+  border-radius: 4px;
+
+}
+
+.btn-copiar {
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.btn-ver:hover, .btn-copiar:hover, .btn-eliminar:hover{
+    opacity: 0.7;
+}
+.volver-link {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #1d792c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.guardadas h2{
+    font-size: 2rem;
+}
+.guardadas{
+    padding: 1.5rem;
+    text-align: center;
+}
+.lista{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.lista .item{
+    font-size: 1rem;
+    border-bottom: lightslategray solid 1px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-eliminar {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media (max-width:768px){
+    .btn-copiar, .btn-eliminar, .btn-ver{
+        font-size: 0.5rem;
+        padding: 4px;
+    }
+    .botones{
+        margin-left: 0;
+        gap: 5px;
+    }
+    .input-mostrar{
+        font-size: 0.4rem;
+        width: 80%;
+    }
+    .guardadas h2{
+        font-size: 1rem;
+    }
+    .guardadas{
+        padding: 0.1rem;
+        margin: 0;
+    }
+    .info strong{
+        font-size: 0.5rem;
+    }
+    .lista .item{
+        padding: 4px;
+    }
+    .volver-link{
+        font-size: 0.7rem;
+        top: 10px;
+        left: 10px;
+      }
+}

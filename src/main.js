@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
     //crear funcion encargada de manejar la autenticacion con Google
     async function manejarAutenticacion() {
         try {
-            console.log("About to call signInWithPopup. auth:", auth, "provider:", provider);
+            //console.log("About to call signInWithPopup. auth:", auth, "provider:", provider);
             const result = await signInWithPopup(auth, provider);
-            console.log("Iniciando autenticación con Google...");
+            //console.log("Iniciando autenticación con Google...");
             const usuario = result.user
             const usuarioRef = doc(db, "usuarios", usuario.uid)
 

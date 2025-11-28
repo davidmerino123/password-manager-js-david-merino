@@ -197,38 +197,39 @@ input[type="number"] {
       }
       .text-center{
         width: 100%;
+        padding: 10px 0;
       }
       .mostrar-contras{
-        font-size: 0.7rem;
-        top: 10px;
-        right: 10px;
+        font-size: 1rem;
+        top: 15px;
+        right: 15px;
       }
       .titulo-h1 {
-        font-size: 1rem;
-        margin: 0;
+        font-size: 1.5rem;
+        margin-top: 2rem;
       }
       .slogan-p {
-        font-size: 0.7rem;
+        font-size: 1rem;
       }
       .form-label {
-        font-size: 0.7rem;
+        font-size: 1rem;
       }
       #numCaracteres {
         width: 100%;
         padding: 5px 4px;
-        font-size: 0.9rem;
+        font-size: 1.4rem;
       }
       .generar-btn {
         width: 75%;
         padding: 6px 0;
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
       .contraseñas-contenedor {
         margin-top: 0.5rem;
         width: 100%;
       }
       .contraseñaEl {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         padding: 0.4rem 0.5rem;
         margin: 1rem 0;
         width: 100%;
@@ -244,7 +245,7 @@ input[type="number"] {
       .guardar-btn{
         width: 75%;
         padding: 6px 0;
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
 
     }

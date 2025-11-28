@@ -82,7 +82,7 @@ body {
 }
 @media (max-width:768px){
     .btn-copiar, .btn-eliminar, .btn-ver{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         padding: 4px;
     }
     .botones{
@@ -94,21 +94,21 @@ body {
         width: 80%;
     }
     .guardadas h2{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .guardadas{
         padding: 0.1rem;
         margin: 0;
     }
     .info strong{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .lista .item{
         padding: 4px;
     }
     .volver-link{
-        font-size: 0.7rem;
-        top: 10px;
-        left: 10px;
+        font-size: 1rem;
+        top: 15px;
+        left: 15px;
       }
 }

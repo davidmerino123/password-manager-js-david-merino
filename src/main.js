@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const nombreClave = document.getElementById("nombre-input");
 
     const provider = new GoogleAuthProvider();
-    let estaLogueado = false
+    //let estaLogueado = false
     const modalGuardar = document.getElementById("modal-guardar");
     let resultado = ""
 
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             //mostrar modal
             setTimeout(function() {
-                console.log("Mostrando el modal de inicio de sesión");
+                //console.log("Mostrando el modal de inicio de sesión");
                 showModal(modal);
             }, 1000);
             guardarBtn.setAttribute("hidden", true)
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     foto: usuario.photoURL,
                     creado: new Date()
                 })
-                console.log("usuario registrado en Firestore")
+                //console.log("usuario registrado en Firestore")
             } else {
                 console.log("el usuario ya existia en la BD")
             }
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const verificado = usuario.emailVerified
             //console.log(verificado)
             if(verificado){
-                estaLogueado = true
+                //estaLogueado = true
                 hideModal(modal)
             }
             
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
         caracteresN.addEventListener("keydown", function(event) {
             if (event.key === "Enter") {
                 const resultado = generarContraseña();
-                console.log("Contraseña generada: " +  resultado);
+                //console.log("Contraseña generada: " +  resultado);
             }
         });
     }

@@ -4,7 +4,6 @@ node_modules/
 # 2. Seguridad (Tu archivo con la clave secreta)
 .env
 .env.local
-src/firebase.js
 
 # 3. Construcción (La carpeta que genera Vite al compilar, aun no la tienes pero aparecerá)
 dist/
